@@ -96,6 +96,7 @@ function nextPage() {
     $('#buttons').html('');
 
 
+
     // Get Form Input
     q = $('#query').val();
 
@@ -195,7 +196,7 @@ function getOutput(item) {
         '<img src="' + thumb + '">' +
         '</div>' +
         '<div class="list-right">' +
-        '<a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/' + videoID + '"><h3>' + title + '</h3></a>' +
+        '<a class="fancybox fancybox.iframe" href="https://youtube.com/embed/' + videoID + '"><h3>' + title + '</h3></a>' +
         '<small>By <span class="Title">' + channelTitle + '</span> on ' + videoDate + '</small>' +
         '<p>' + description + '</p>' +
         '</div>' +
@@ -203,8 +204,11 @@ function getOutput(item) {
         '<div class="clearfix"></div>' +
         '';
 
+
+
     return output;
 }
+
 
 
 // Build the buttons
@@ -225,3 +229,8 @@ function getButtons() {
 
     return btnOutput;
 }
+
+
+$(".fancybox").fancybox({
+    type: 'iframe'
+});
