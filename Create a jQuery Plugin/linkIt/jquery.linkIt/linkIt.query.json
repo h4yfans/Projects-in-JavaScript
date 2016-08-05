@@ -1,7 +1,7 @@
 {
   "name": "linkIt",
   "title": "LinktIt jQuery Plugin",
-  "description": "Simple plugin to convery any element into a link",
+  "description": "Simple plugin to convert any element into a link",
   "keywords": [
     "link",
     "html",
@@ -22,14 +22,12 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+      "url": "https://github.com/h4yfans/Projects-in-JavaScript/tree/master/Create%20a%20jQuery%20Plugin/linkIt/LICENSE.txt"
     }
   ],
-  "bugs": "https://github.com/jquery/jquery-color/issues",
-  "homepage": "https://github.com/jquery/jquery-color",
-  "docs": "https://github.com/jquery/jquery-color",
-  "download": "http://code.jquery.com/#color",
+  "homepage": "https://github.com/h4yfans/Projects-in-JavaScript/tree/master/Create%20a%20jQuery%20Plugin/linkIt",
+  "docs": "https://github.com/h4yfans/Projects-in-JavaScript/tree/master/Create%20a%20jQuery%20Plugin/linkIt",
   "dependencies": {
-    "jquery": ">=1.5"
+    "jquery": ">=1.95"
   }
 }
