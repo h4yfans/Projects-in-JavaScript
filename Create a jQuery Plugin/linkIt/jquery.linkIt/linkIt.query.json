@@ -1,0 +1,35 @@
+{
+  "name": "linkIt",
+  "title": "LinktIt jQuery Plugin",
+  "description": "Simple plugin to convery any element into a link",
+  "keywords": [
+    "link",
+    "html",
+    "content"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Kaan Karaca",
+    "url": "https://github.com/h4yfans"
+  },
+  "maintainers": [
+    {
+      "name": "Kaan Karaca",
+      "email": "kaan94karaca@gmail.com",
+      "url": "http://github.com/h4yfans"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+    }
+  ],
+  "bugs": "https://github.com/jquery/jquery-color/issues",
+  "homepage": "https://github.com/jquery/jquery-color",
+  "docs": "https://github.com/jquery/jquery-color",
+  "download": "http://code.jquery.com/#color",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}

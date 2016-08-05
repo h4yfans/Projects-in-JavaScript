@@ -8,8 +8,9 @@ $(document).ready(function () {
     var positions = new Array();
 
     $('#slides .slide').each(function (i) {
+        console.log(i);
         console.log(totalWidth);
-
+        console.log($(this).width());
         // Get slider widths
         positions[i] = totalWidth;
         totalWidth += $(this).width();
@@ -32,6 +33,8 @@ $(document).ready(function () {
         // Add active class to parent
         $(this).parent().addClass('active');
         var pos = $(this).parent().prevAll('.product').length;
+
+
 
         $('#slides').stop().animate({marginLeft: -positions[pos]+'px'}, 450);
 
